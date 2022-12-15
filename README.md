@@ -1,3 +1,22 @@
+#Purpose For This Project
+
+This Application was developed with the guidance of Codecademys Full Stack Course.  The goal of this Application was to use stateful and stateless components to render a contacts page that new contacts could be appended to and an appointments page that could create appointments from the contacts page using state.  In the actual lesson, the react router is depreciated to version 4.0 which I initially utilized through their learning module, but opted to switch to learning react router v6.0 to obtain a bit more real world application.
+
+I also, applied some of my own logic to prevent duplicate appointments and contacts from being appended into the list.  
+
+##Things to consider adding post 12/15:
+An automatic removal of appointments an hour after their appointment time, to prevent continuous adding of appointments.
+  Would like utilize a useEffect hook to do it upon render with time being a second argument to the function as it is ever changing.
+  
+ Secondly:
+  would consider manual removal of contact with some event listener function and add a button for removal. 
+  
+ Thirdly, consider merging the appointment list and app appointments to have a dropdown menu based on a state with an up and down arrow To make it a bit cleaner.
+ 
+ 
+Overall pleased with this project as my understanding of component state and the purpose of hooks was clarified a bit better.  
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
